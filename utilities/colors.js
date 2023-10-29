@@ -5,7 +5,12 @@ module.exports = {
   orange(content) {
     return `\u001b[38;5;208;1m${content}\u001b[0m`
   },
-
+  lightOrange(content) {
+    return `\u001b[38;5;214;1m${content}\u001b[0m`;
+  },
+  lighterBlue(content) {
+    return `\u001b[38;5;117;1m${content}\u001b[0m`;
+  },
   teal(content) {
     return `\u001b[38;5;44;1m${content}\u001b[0m`
   },
